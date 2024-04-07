@@ -1,0 +1,60 @@
+.header {
+  height: 100px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.header__ul {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.header__ul a{
+  text-decoration: none;
+}
+
+.header__li {
+  color: var(--B, #030d15);
+  font-family: "Hind Siliguri";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  text-decoration: none;
+}
+
+.header__logo {
+  padding-top: 10px;
+}
+
+.header__registration {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 110px;
+}
+
+.search {
+  padding-top: 9px;
+  padding-right: 8px;
+}
+
+.basket {
+  padding-top: 9px;
+  padding-left: 8;
+}
+
+.registration {
+  padding-top: 5px;
+  padding-left: 8px;
+}
